@@ -9,16 +9,42 @@ padding: 0;
 box-sizing: border-box;
 font-family: "poppins", Arial, Helvetica, sans-serif;
  }
+nav a{
+  text-decoration: none;
+  font-size: larger;
 
+  margin:0px 20px 0px 20px;
+ color: white;
+ font-weight: 600;
+ 
+  transition: all .2s linear;
+}
+nav a:hover{
+
+  color: rgb(164, 169, 204);
+}
+
+.navbar{
+width: 100%;
+  text-align: center;
+
+}
 .header {
     position:fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    background: green;
+    background: #0b5478;
     display: flex;
 justify-content: space-between;
 align-items: center;
 z-index: 100;
 }
+img{width: 100%;}
+.pretty-center
+{max-width: 800px;
+margin-left: auto;
+margin-right:auto;
+margin-top: 140px;
+margin-bottom: 70px;}
