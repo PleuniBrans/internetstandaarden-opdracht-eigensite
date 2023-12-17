@@ -5,6 +5,7 @@ body {
   padding-top: 90px;
 }
 
+
 * {
   margin: 0;
   padding: 0;
@@ -194,11 +195,24 @@ animation-delay: 0s;
 .image-button {
 
   display: inline-block;
-  background-color: pink;
-  color: black;
+  background-color: #0b5478;
+  color: white;
   font-size: 16px;
-  padding: 2px 3px;
+  padding: 15px 20px;
   text-decoration: none;
   border-radius: 5px;
 }
 
+.titels {
+  font-size:50px;
+}
+
+ul {
+  margin-bottom: 20px;
+}
+
+h2 + img {
+  width: 80%; 
+  display: block;
+  margin: 0 auto; 
+}
