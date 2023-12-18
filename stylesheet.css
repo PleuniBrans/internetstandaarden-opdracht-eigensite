@@ -216,3 +216,19 @@ h2 + img {
   display: block;
   margin: 0 auto; 
 }
+
+h3 {
+  margin-top: 20px;
+}
+
+.hostel-text {
+  margin-top: 10px;
+  text-align: left;
+}
+
+#favoriete-hostels img {
+  width: 100%; 
+  max-width: 400px; 
+  height: auto; 
+  border-radius: 10px;
+}
