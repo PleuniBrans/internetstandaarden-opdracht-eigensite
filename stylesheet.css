@@ -226,40 +226,86 @@ h3 {
 }
 
 
-input[type=text], select, textarea {
-  width: 100%; 
-  padding: 12px; 
-  border: 1px solid #0b5478; 
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px; 
-  resize: vertical 
-}
-
-input[type=stuur] {
-  background-color: #0b5478;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=stuur]:hover {
-  background-color: rgb(164, 169, 204);
-}
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
 footer {
   width: 100%;
   text-align: center;
   padding: 10px;
   background-color: #0b5478;
   color: white;
+}
+
+*{
+  box-sizing: border-box;
+
+}
+
+.wrapper{
+  display: grid;
+place-items: center;
+min-height: 100vh;
+}
+
+.form-area{
+  width: 800px;
+  height: auto;
+  display: flex;
+  background-color: #0b5478;
+  border-radius: 25px;
+  padding: 1.8em;
+}
+
+.msg-area{
+  display: flex;
+  flex-direction: column;
+  order: 2;
+}
+
+.msg-area > textarea{
+  flex: 1;
+  min-width: 18em;
+  background: rgb(255, 255, 255, 0,2);
+  color: #f0f0f0; 
+  padding: 15px;
+  border: 0;
+}
+
+.details-area{
+  flex: 1;
+   order: 1;
+   margin-right: 2em;
+   text-align: center;
+}
+
+.details-area input{
+  width: 450px;
+  color: black;
+  border-radius: 50px;
+  height: 50px;
+  background: rgb(255, 255, 255, 0,2);
+  border: 0;
+}
+
+.details-area input,
+.details-area button{
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.details-area button{
+  background: #2483b2;
+  color: #fff;
+  border: 0;
+  padding: 15px 50px;
+  border-radius: 50px;
+  font-family: poppins;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+label{
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 40px;
+  font-family: poppins;
 }
