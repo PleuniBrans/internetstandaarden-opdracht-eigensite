@@ -135,7 +135,7 @@ width: 100%;
 .slider-row
 {
   margin-left: -400px;
-width: 5700px;
+width: 4200px;
 height: 290px;
 animation: carousel 60s linear infinite;
 animation-delay: 0s;
