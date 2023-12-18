@@ -272,7 +272,7 @@ min-height: 100vh;
 .msg-area > textarea{
   flex: 1;
   min-width: 15em;
-  background: rgb(255, 255, 255, 0,2);
+  background: white;
   color: #000000; 
   padding: 15px;
   border: 0;
@@ -290,7 +290,7 @@ min-height: 100vh;
   color: black;
   border-radius: 50px;
   height: 50px;
-  background: rgb(255, 255, 255, 0,2);
+  background: white;
   border: 0;
 }
 
