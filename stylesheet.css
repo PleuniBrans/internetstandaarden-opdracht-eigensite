@@ -234,6 +234,7 @@ footer {
   color: white;
 }
 
+
 *{
   box-sizing: border-box;
 
@@ -262,9 +263,9 @@ min-height: 100vh;
 
 .msg-area > textarea{
   flex: 1;
-  min-width: 18em;
+  min-width: 15em;
   background: rgb(255, 255, 255, 0,2);
-  color: #f0f0f0; 
+  color: #000000; 
   padding: 15px;
   border: 0;
 }
@@ -309,3 +310,11 @@ label{
   line-height: 40px;
   font-family: poppins;
 }
+
+.route-text{
+  text-align: left;
+}
+
+.image-source{
+  text-align: left;
+  }
