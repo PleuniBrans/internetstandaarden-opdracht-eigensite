@@ -234,11 +234,11 @@ footer {
   color: white;
 }
 
-⁠footer > a {
-	color: #89c8ff;
+footer a {
+  color: #e6e6e6 ;
 }
 
-footer > a:hover {	
+footer a:hover {	
 	color: #e6f4ff;
 }
 
