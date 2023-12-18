@@ -94,13 +94,6 @@ p {
   font-size: 18px;
 }
 
-footer {
-  width: 100%;
-  text-align: center;
-  padding: 10px;
-  background-color: #0b5478;
-  color: white;
-}
 
 .header-image {
   min-height: 300px;
@@ -160,7 +153,6 @@ animation-delay: 0s;
   transform: scale(1.1);
   transition: 0.5s;
 }
-
 
 
 .image-column img {
@@ -231,4 +223,43 @@ h3 {
   max-width: 400px; 
   height: auto; 
   border-radius: 10px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #0b5478; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=stuur] {
+  background-color: #0b5478;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=stuur]:hover {
+  background-color: rgb(164, 169, 204);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #0b5478;
+  color: white;
 }
