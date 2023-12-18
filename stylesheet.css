@@ -234,6 +234,14 @@ footer {
   color: white;
 }
 
+⁠footer > a {
+	color: #89c8ff;
+}
+
+footer > a:hover {	
+	color: #e6f4ff;
+}
+
 
 *{
   box-sizing: border-box;
@@ -247,7 +255,7 @@ min-height: 100vh;
 }
 
 .form-area{
-  width: 800px;
+  width: 780px;
   height: auto;
   display: flex;
   background-color: #0b5478;
@@ -307,6 +315,7 @@ min-height: 100vh;
 label{
   color: #fff;
   text-transform: uppercase;
+  line-height: 40px;
   font-family: poppins;
 }
 
